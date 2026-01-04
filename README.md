@@ -1,4 +1,4 @@
-# Mimos da Vovó – Projeto Integrador
+# Site institucional fictício – Projeto Integrador
 
 Site institucional e técnico desenvolvido para o projeto integrador
 do curso, abordando produção, gestão, planejamento e controle de processos
