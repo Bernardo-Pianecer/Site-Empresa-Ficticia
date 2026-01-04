@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00ELNQSGMH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-00ELNQSGMH');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mimos da Vovó - Brigadeiros Artesanais</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <style>
+    section { padding: 2rem 0; border-bottom: 1px solid #f3f4f6; }
+    .card { 
+      background: white; 
+      border-radius: 12px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      padding: 1.5rem; 
+      margin-bottom: 1.5rem; 
+      transition: all 0.3s ease;
+    }
+    .card:hover { 
+      transform: translateY(-6px); 
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15); 
+    }
+    body { font-family: 'Poppins', sans-serif; }
+    
+    /* IFRAMES 100% RESPONSIVOS */
+    .iframe-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 65%;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.9);
+    }
+
+    .iframe-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+  <!-- HEADER -->
+  <header class="bg-amber-800 text-white sticky top-0 z-50 shadow-lg">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <i data-feather="heart" class="text-amber-200"></i>
+        <h1 class="text-xl font-bold md:text-2xl">Mimos da Vovó</h1>
+      </div>
+
+      <nav class="hidden md:block">
+        <ul class="flex space-x-6">
+          <li><a href="#sobre" class="hover:text-amber-200 transition">Sobre</a></li>
+          <li><a href="#missao" class="hover:text-amber-200 transition">Missão</a></li>
+          <li><a href="#organograma" class="hover:text-amber-200 transition">Organograma</a></li>
+          <li><a href="#fluxograma" class="hover:text-amber-200 transition">Fluxograma</a></li>
+          <li><a href="#smart" class="hover:text-amber-200 transition">SMART</a></li>
+        </ul>
+      </nav>
+
+      <button id="menu-btn" class="md:hidden focus:outline-none">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+
+    <!-- MENU MOBILE DROPDOWN -->
+    <nav id="mobile-menu" class="hidden bg-amber-700 md:hidden">
+      <ul class="flex flex-col space-y-2 px-4 pb-4">
+        <li><a href="#sobre" class="block hover:text-amber-200 transition">Sobre</a></li>
+        <li><a href="#missao" class="block hover:text-amber-200 transition">Missão</a></li>
+        <li><a href="#organograma" class="block hover:text-amber-200 transition">Organograma</a></li>
+        <li><a href="#fluxograma" class="block hover:text-amber-200 transition">Fluxograma</a></li>
+        <li><a href="#smart" class="block hover:text-amber-200 transition">SMART</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<script>
+document.getElementById("menu-btn").addEventListener("click", () => {
+  document.getElementById("mobile-menu").classList.toggle("hidden");
+});
+</script>
+
+
+<!-- HERO -->
+<section class="bg-amber-700 text-white py-14 text-center px-4">
+  <img src="https://i.ibb.co/yBmMmSJ6/logo.png" 
+       class="mx-auto mb-6 w-32 md:w-40 rounded-lg shadow-xl">
+       
+  <h2 class="text-3xl md:text-4xl font-bold mb-2">Mimos da Vovó</h2>
+  <p class="text-lg md:text-xl">Brigadeiros artesanais feitos com amor</p>
+
+  <p class="mt-3 text-amber-200 italic">
+    "Doçura que vem do coração, tradição que conquista paladares!"
+  </p>
+</section>
+
+
+<!-- NOVA SEÇÃO: CARDS DE PRODUTOS -->
+<section class="py-16 bg-amber-100">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-amber-900 mb-12">Nossos Novos Produtos</h2>
+  
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
+  
+        <!-- CARD 1 -->
+        <div class="card bg-white rounded-2xl p-8 shadow-xl w-full max-w-sm">
+          <img src="https://i.ibb.co/hJJBLdM6/a6f4a585-855b-41a8-8893-7c30aa18bd2b.jpg" 
+               alt="Produto 1" class="w-48 h-48 mx-auto object-contain mb-6 rounded-xl">
+          <h3 class="text-2xl font-semibold text-amber-800 mb-4">Brigadeiro Gourmet Tradicional</h3>
+          <h4 class="text-amber-700 mt-2 text-lg">R$2,50</h4>
+          <p class="text-amber-700 mt-2 text-lg">
+            Feito com chocolate belga e um toque especial da vovó. Textura cremosa e sabor inesquecível!
+          </p>
+        </div>
+  
+        <!-- CARD 2 -->
+        <div class="card bg-white rounded-2xl p-8 shadow-xl w-full max-w-sm">
+          <img src="https://i.ibb.co/BKqpSFQ8/Whats-App-Image-2025-10-06-at-14-33-14.jpg" 
+               alt="Produto 2" class="w-48 h-48 mx-auto object-contain mb-6 rounded-xl">
+          <h3 class="text-2xl font-semibold text-amber-800 mb-4">Brigadeiro de Leite Ninho</h3>
+          <h4 class="text-amber-700 mt-2 text-lg">R$2,50</h4>
+          <p class="text-amber-700 mt-2 text-lg">
+            A combinação perfeita de doce do leite ninho. Simplesmente irresistível!
+          </p>
+        </div>
+  
+        <!-- CARD 3 -->
+        <div class="card bg-white rounded-2xl p-8 shadow-xl w-full max-w-sm">
+          <img src="https://i.ibb.co/nNn3HRfz/6a1f60a7-4e68-413d-bf71-eef755e20e98.jpg" 
+               alt="Produto 3" class="w-48 h-48 mx-auto object-contain mb-6 rounded-xl">
+          <h3 class="text-2xl font-semibold text-amber-800 mb-4">Beijinho</h3>
+          <h4 class="text-amber-700 mt-2 text-lg">R$2,50</h4>
+          <p class="text-amber-700 mt-2 text-lg">
+            O equilíbrio perfeito entre o doce e o salgado. Um toque moderno para o clássico sabor de infância.
+          </p>
+        </div>
+  
+        <!-- CARD 4 -->
+        <div class="card bg-white rounded-2xl p-8 shadow-xl w-full max-w-sm">
+          <img src="https://i.postimg.cc/Dwsw-nRW9/1ddad82a-294f-40e3-8e85-180146091f09.jpg" 
+               alt="Produto 4" class="w-48 h-48 mx-auto object-contain mb-6 rounded-xl">
+          <h3 class="text-2xl font-semibold text-amber-800 mb-4">Brigadeiro de Oreo</h3>
+          <h4 class="text-amber-700 mt-2 text-lg">R$3,00</h4>
+          <p class="text-amber-700 mt-2 text-lg">
+            O clássico brigadeiro ganha um toque moderno com o sabor irresistível do Oreo, unindo cremosidade e crocância em cada mordida.
+          </p>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+    
+    <!-- About Section -->
+    <section id="sobre" class="container mx-auto px-4 py-12 box-shadow: 0px 4px 10px rgba(0,0,0,0.9); flex items-center justify-center">
+        <div class="card text-center">
+            <h2 class="text-2xl font-bold text-amber-800 mb-4">Sobre Nós</h2>
+            <p class="text-gray-700 mb-6">
+            A Mimos da Vovó nasceu do amor pela confeitaria tradicional e da vontade de compartilhar os sabores que marcaram nossa infância.
+            Especializados em brigadeiros artesanais, levamos até você a autêntica experiência do doce brasileiro, feito com ingredientes selecionados e muito carinho.
+            </p>
+                
+                        <!-- Container com imagem e áreas clicáveis -->
+                        <div class="relative inline-block">
+                            <img src="https://i.postimg.cc/prwbfqt6/equipe.png"
+                                alt="imagem_do_grupo"
+                                class="rounded-lg mx-auto shadow-lg"
+                                style="max-width: 85%; height: auto; border-radius: 15px;">
+    
+                                <!-- Exemplos de posições (ajuste top/left conforme cada pessoa na foto) -->
+                                <div class="absolute top-[91%] left-[39%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Beatriz Cunha Machado
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[40%] left-[55%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Bernardo Pianecer
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[50%] left-[42%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Hériclis João de Sales Sousa
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[95%] left-[60%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Lara Sabrina dos Santos Andrade
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[47%] left-[34%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Pedro Gabriel Amaro
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[93%] left-[28%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Rebeca Alves Pereira Norte
+                                    </span>
+                                </div>
+    
+                                <div class="absolute top-[89%] left-[48%] cursor-pointer group">
+                                    <span class="absolute bottom-full mb-2 px-2 py-1 text-sm bg-black text-white rounded opacity-0 group-hover:opacity-100 transition">
+                                        Rillary Ferreira Silva
+                                    </span>
+                                </div>
+                        </div>
+    
+            <br/>
+            <h3 class="text-2xl font-bold text-amber-800 mb-4">Equipe</h3>
+            <ul>
+                <li>Beatriz Cunha Machado</li>
+                <li>Bernardo Pianecer</li>
+                <li>Hériclis João de Sales Sousa</li>
+                <li>Lara Sabrina dos Santos Andrade</li>
+                <li>Pedro Gabriel Amaro</li>
+                <li>Rebeca Alves Pereira Norte</li>
+                <li>Rillary Ferreira Silva</li>
+            </ul>
+        </div>
+    </section>
+        <!-- Mission Section -->
+        <section id="missao" class="container mx-auto px-4 py-12 bg-amber-50">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card">
+                    <h3 class="text-xl font-bold text-amber-800 mb-3 flex items-center">
+                        <i data-feather="target" class="mr-2"></i> Missão
+                    </h3>
+                    <p class="text-gray-700">Nossa missão é oferecer produtos de qualidade e valor, com foco em alimentos preparados com excelência e carinho. Buscamos encantar nossos clientes com agilidade, simpatia e um atendimento atencioso, entregando experiências que lembram o sabor e o cuidado das receitas da vovó. </p>
+                </div>
+                
+                <div class="card">
+                    <h3 class="text-xl font-bold text-amber-800 mb-3 flex items-center">
+                        <i data-feather="eye" class="mr-2"></i> Visão
+                    </h3>
+                    <p class="text-gray-700">Ser uma empresa de referência no mercado brasileiro e internacional, reconhecida como a melhor opção para clientes que buscam os mais saborosos e autênticos brigadeiros. Nosso objetivo é atender e superar as expectativas e necessidades dos consumidores, valorizando a qualidade, a inovação e o carinho em cada detalhe</p>
+                </div>
+                
+                <div class="card">
+                    <h3 class="text-xl font-bold text-amber-800 mb-3 flex items-center">
+                        <i data-feather="award" class="mr-2"></i> Valores
+                    </h3>
+                    <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                        <li>Honestidade</li>
+                        <li>Responsabilidade </li>
+                        <li>Trabalho em equipe</li>
+                        <li>Transparência</li>
+                        <li>Qualidade</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+<!-- SMART Section -->
+<section id="smart" class="container mx-auto px-4 py-12">
+    <div class="card">
+        <h2 class="text-2xl font-bold text-amber-800 mb-6">Objetivos SMART</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="border-l-4 border-amber-500 pl-4">
+                <h3 class="text-lg font-semibold text-gray-800">Específico</h3>
+                <p class="text-gray-700">Produzir brigadeiros no Senai.</p>
+            </div>
+            <div class="border-l-4 border-amber-500 pl-4">
+                <h3 class="text-lg font-semibold text-gray-800">Mensurável</h3>
+                <p class="text-gray-700">1000 brigadeiros por semana | 200/semana.</p>
+            </div>
+            <div class="border-l-4 border-amber-500 pl-4">
+                <h3 class="text-lg font-semibold text-gray-800">Atingível</h3>
+                <p class="text-gray-700">Produção diária divida em 4 horas.</p>
+            </div>
+            <div class="border-l-4 border-amber-500 pl-4">
+                <h3 class="text-lg font-semibold text-gray-800">Relevante</h3>
+                <p class="text-gray-700">Alinhada com o objetivo da empresa de iniciar sua produção e atender os primeiros pedidos.</p>
+            </div>
+            <div class="border-l-4 border-amber-500 pl-4 md:col-span-2">
+                <h3 class="text-lg font-semibold text-gray-800">Temporal</h3>
+                <p class="text-gray-700">Concluída em 5 dias úteis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- SEÇÃO INSTAGRAM -->
+        <section id="instagram" class="bg-amber-50 py-16 text-center">
+            <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-amber-900 mb-8">Siga-nos no Instagram 📸</h2>
+            <p class="text-gray-700 mb-8">Acompanhe nossas novidades, sabores e bastidores da produção!</p>
+            <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-4fbc2fe7-e5d1-46ab-b603-ac9b5c5df0df" data-elfsight-app-lazy></div>
+        </section>
+  
+    <!-- Mapa mental -->
+    <section id="Mapamental" class="container mx-auto px-4 py-12">
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Mapa Mental MacroProcesso </h2>
+            <br/>
+            <h3> Mapa mental dos macroprocessos é fundamental para organizar e estruturar uma empresa de brigadeiros. Ele oferece uma visão clara das principais áreas, como produção, vendas, compras e marketing, facilitando o entendimento das etapas do negócio. Isso ajuda a identificar gargalos, otimizar processos e melhorar a tomada de decisões, contribuindo para o crescimento e a eficiência da empresa.</h3>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/1zBQkGp8/macroprocessos.png" alt="" class="mx-auto rounded" style="border-radius: 15px; width: 700px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+            </div>
+        </div>
+    </section>
+        <!-- Organization Chart -->
+        <section id="organograma" class="container mx-auto px-4 py-12">
+            <div class="card">
+                <h2 class="text-2xl font-bold text-amber-800 mb-6">Organograma da Empresa</h2>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <img src="https://i.postimg.cc/L8jsCQNR/Captura-de-tela-2025-09-11-145842.png" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                    <br/><br/>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Flowchart Section -->
+        <section id="fluxograma" class="container mx-auto px-4 py-12 bg-amber-50">
+            <div class="card">
+                <h2 class="text-2xl font-bold text-amber-800 mb-6">Fluxograma de Processos</h2>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe src="https://miro.com/app/live-embed/uXjVIxbEplU=/?embedMode=view_only_without_ui&moveToViewport=-1875,-1478,3575,1759&embedId=892518016716" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen style="border-radius: 15px; width: 100%;height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Layout Section -->
+            <section id="Layout" class="container mx-auto px-4 py-12 bg-amber-50">
+                <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">Layout</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <img src="https://i.postimg.cc/3wGhtkBq/1809ecd2-6d5d-4f53-94ca-cc59905cef15.jpg" alt="Layout" class="mx-auto rounded"  style="border-radius: 15px; width: 700px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                    </div>
+                </div>
+            </section>
+           <!-- DDS SECTION -->
+                <section id="DDS" class="container mx-auto px-4 py-12 bg-amber-50">
+                    <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">DDS</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <img src="https://i.ibb.co/8gqh8rSK/Whats-App-Image-2025-10-06-at-16-05-43.jpg" 
+                            alt="Layout" 
+                            class="mx-auto rounded" 
+                            style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                    </div>
+                    </div>
+                
+                    <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">DDS</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <img src="https://i.ibb.co/q33F7gbV/Whats-App-Image-2025-10-06-at-16-04-34.jpg" 
+                            alt="Layout" 
+                            class="mx-auto rounded" 
+                            style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                    </div>
+                    </div>
+                    <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">DDS</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <img src="https://i.postimg.cc/QdDjn4ZN/Whats-App-Image-2025-11-10-at-15-55-28.jpg" 
+                            alt="Layout" 
+                            class="mx-auto rounded" 
+                            style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                    </div>
+                    </div>
+                </section>
+  <!-- Pesquisa Aplicada -->
+    <section id="organograma" class="container mx-auto px-4 py-12">
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Pesquisa Aplicada</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/cJxy2zfK/Whats-App-Image-2025-10-16-at-16-11-40.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/vmYFkK5n/Whats-App-Image-2025-10-16-at-16-11-01.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/rpVX3H5r/Whats-App-Image-2025-10-16-at-16-10-27.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/TPdMFsnm/Whats-App-Image-2025-10-16-at-16-08-14.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+        </div>
+    </section>
+            <!-- Planilhas Section -->
+            <section id="Planilhas" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+                <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+                    GESTÃO DE RECURSOS
+                  </h1>              
+                <div class="card">
+                     <h2 class="text-2xl font-bold text-amber-800 mb-6">Previsão de Demanda</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ-X7MrxWghh0H1kl-0OqoKgzlrVy9ldYTwEek5eqU_QBST6kkg7fJYdHJZCtF5hVi1EPgcQLoAKuEn/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);"></iframe>
+                    </div>
+                    <br/>
+                    <br/>
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">Planilhas</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSScJJTm4CLUe0blvC-S62PSgYJDD20GjcEq_nvHEz8c7q9CZDrLkDLFhb4My2RjYBgW23Asaa-oquP/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height: 400px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                    </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">Fichas Tecnicas</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe src="https://docs.google.com/spreadsheets/d/1Q9x6TgGWo5AI6gkUQOvtHEdgg3lLwYxZvgk2td0Ixvg/edit?usp=sharing" style="border-radius: 15px; width: 100%; height: 1200px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                        <br/>
+                    </div>
+    
+            </section>
+            <!-- 5W2H Section -->
+            <section id="5W2H" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+                <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+                    5W2H e 5S
+                  </h1>              
+                <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">5W2H</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTOFtXHVui97vodhNDdsIvyZf4ucqWX6b9MYugw8_dE2U_ZzqI23wWlmFwWX5SZW86gkjj9Pwi57poP/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                        <br/>
+    
+            </section>
+            
+            <!-- Plano de produção -->
+            <section id="Plano de produção" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+                <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+                    Plano de produção
+                  </h1>              
+                <div class="card">
+                    <h2 class="text-2xl font-bold text-amber-800 mb-6">Plano de produção</h2>
+                    <div class="bg-gray-100 p-4 rounded-lg">
+                        <iframe  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRPVjBGNHIbi8U3CCk63mVdau4DD8Ppq3obQ8cr4W_n8Olx7qIS_gbpcgbgSRnCZPo-6D3rkpQC4QHt/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                        <br/>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <img src="https://i.ibb.co/QgXLtsW/Whats-App-Image-2025-11-17-at-14-19-34.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                            <br/><br/>
+                        </div>
+                        <br/>
+                        <div class="bg-gray-100 p-4 rounded-lg">
+                            <img src="https://i.ibb.co/tpnbKSjv/Whats-App-Image-2025-11-17-at-14-20-02.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                            <br/><br/>
+                        </div>
+                        
+    
+            </section>
+            <!-- Cronograma -->
+    <section id="Ordem de Produção" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+        <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+            Cronograma
+          </h1>              
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Cronograma</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <iframe  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRddTYOfmlUJkA6EiSfUf3uZuFxjj6W-Ti6yU9ST5DCBwqlmvSCBD7-8KV9yhD15Q4fykpw-HUQpGks/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                <br/>
+
+    </section>
+    <!-- Ordem de Produção -->
+    <section id="Ordem de Produção" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+        <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+            Ordem de Produção
+          </h1>              
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Ordem de Produção</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <iframe  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSrOquz5Q7Cj4HXen0LeKZ10BRDzY4jYYppxd4ZGKK1uC7s586-SD9cvxQMgnGL97CiurugDIKRliJ_/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                <br/>
+    
+    </section>
+      <!-- Controle de Produção -->
+      <section id="Controle de Produção" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+        <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+            Controle de Produção
+          </h1>              
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Controle de Produção</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <iframe  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSpfDsASb2J_sqbW2ikf8aG0huKAgP7A6Z_H9XMnu9_S_yZe-9m7FfwjMac5FkRM_HhVTYHtfGjp8w1/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                <br/>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <img src="https://i.ibb.co/vx57DCrK/d6f49fd5-0590-4b0d-9bed-a394ef09d735.jpg" 
+                        alt="Layout" 
+                        class="mx-auto rounded" 
+                        style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                    <img src="https://i.ibb.co/M5hFhKNg/Whats-App-Image-2025-11-10-at-23-14-13.jpg" 
+                        alt="Layout" 
+                        class="mx-auto rounded" 
+                        style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+                </div>
+                <div class="bg-gray-100 p-4 rounded-lg">
+                  <img src="https://i.ibb.co/mCjq0N1Z/Whats-App-Image-2025-11-07-at-14-17-11.jpg" 
+                      alt="Layout" 
+                      class="mx-auto rounded" 
+                      style="border-radius: 15px; width: auto; height: 400px; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);" >
+              </div>
+    
+    </section>
+    <!-- PlanodeAção -->
+    <section id="Ordem de Produção" class="container mx-auto px-4 py-12 bg-amber-50; display: flex; -ms-flex-align: center;" >
+        <h1 class="text-2xl font-bold text-amber-800 mb-6 text-center w-full">
+            Plano de Ação
+          </h1>              
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Plano de Ação</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <iframe  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSIONLilcOF8ntQbeWg8q7YhmEGbh36dW7YpQVCjR3-7B1C5RmsIgQk9kFYaV9o-hKy0NylRqwo3-Du/pubhtml?widget=true&amp;headers=false" style="border-radius: 15px; width: 100%;height:750px; box-shadow: 0px 4px 10px rgba(0,0,0,0.9); display: flex; -ms-flex-align: center;" ></iframe>
+                <br/>
+
+    </section>
+    
+    
+    
+    <!-- Pesquisa de Satisfação -->
+    <section id="Pesquisa de Satisfação" class="container mx-auto px-4 py-12">
+        <div class="card">
+            <h2 class="text-2xl font-bold text-amber-800 mb-6">Pesquisa de Satisfação</h2>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/pdDzM1pf/Whats-App-Image-2025-11-10-at-16-06-32.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/fbxmQgJX/Whats-App-Image-2025-11-10-at-16-06-55.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/d08rcSLC/Whats-App-Image-2025-11-10-at-16-07-23.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/CKjkp6zC/Whats-App-Image-2025-11-10-at-16-07-45.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.postimg.cc/0NgD3q2Y/Whats-App-Image-2025-11-10-at-16-08-31.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+            <div class="bg-gray-100 p-4 rounded-lg">
+                <img src="https://i.ibb.co/60ZQBCYW/Whats-App-Image-2025-11-17-at-14-18-24.jpg" alt="Organograma Mimos da Vovó" class="mx-auto rounded"  style="border-radius: 15px; width: 700px;height: auto; display: flex; -ms-flex-align: center; box-shadow: 0px 4px 10px rgba(0,0,0,0.9);">
+                <br/><br/>
+            </div>
+        </div>
+    </section>
+    <!-- Carrossel da Produção (quadrado menor e arredondado) -->
+<section id="carrossel-producao" class="bg-amber-100 py-10">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-amber-900 mb-8">Produção em Ação 🍫</h2>
+
+    <!-- Carrossel compacto -->
+    <div class="relative mx-auto w-[250px] h-[250px] md:w-[300px] md:h-[300px] lg:w-[340px] lg:h-[340px]
+                overflow-hidden rounded-3xl shadow-lg">
+      <div id="carousel" class="flex transition-transform duration-700 ease-in-out w-full h-full">
+        
+        <!-- Slide 1 -->
+        <img src="https://i.ibb.co/F4L54pNs/Whats-App-Image-2025-11-03-at-14-25-35-1.jpg"
+             class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 1">
+
+        <!-- Slide 2 -->
+        <img src="https://i.ibb.co/3mHZ67TK/Whats-App-Image-2025-11-03-at-14-25-35.jpg"
+             class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 2">
+
+        <!-- Slide 3 -->
+        <img src="https://i.ibb.co/9HZZr2D0/Whats-App-Image-2025-11-03-at-14-23-48.jpg"
+             class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 3">
+
+        <!-- Slide 4 -->
+        <img src="https://i.ibb.co/gMyykh4r/Whats-App-Image-2025-11-03-at-14-25-23.jpg"
+             class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 4">
+
+        <!-- Slide 5 -->
+        <img src="https://i.ibb.co/0yRHhjHD/Whats-App-Image-2025-11-03-at-14-25-32.jpg"
+             class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 5">
+         <!-- Slide 6 -->
+         <img src="https://i.ibb.co/4wj4PYcr/1a896128-090f-44fd-b707-84f0d9383842.jpg"
+         class="w-full flex-shrink-0 object-cover h-full rounded-3xl" alt="Produção 6">
+      </div>
+
+      <!-- Botões -->
+      <button id="prev"
+              class="absolute left-2 top-1/2 transform -translate-y-1/2 bg-amber-700 text-white p-2 rounded-full hover:bg-amber-800 shadow-md">❮</button>
+      <button id="next"
+              class="absolute right-2 top-1/2 transform -translate-y-1/2 bg-amber-700 text-white p-2 rounded-full hover:bg-amber-800 shadow-md">❯</button>
+    </div>
+  </div>
+</section>
+
+<!-- JS do carrossel -->
+<script>
+  (function () {
+    const track = document.getElementById('carousel');
+    const slides = Array.from(track.children);
+    const prev = document.getElementById('prev');
+    const next = document.getElementById('next');
+    let index = 0;
+
+    function update() {
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    prev.addEventListener('click', () => {
+      index = (index - 1 + slides.length) % slides.length;
+      update();
+    });
+
+    next.addEventListener('click', () => {
+      index = (index + 1) % slides.length;
+      update();
+    });
+  })();
+</script>
+    <!--Conclusao Section -->
+    <section id="sobre" class="container mx-auto px-4 py-12 box-shadow: 0px 4px 10px rgba(0,0,0,0.9); flex items-center justify-center">
+        <div class="card text-center">
+            <h2 class="text-2xl font-bold text-amber-800 mb-4">Conclusão</h2>
+            <p class="text-gray-700 mb-6">Ao final dessa experiência inesquecível, concluímos que a cooperação, a harmonia e a dedicação entre a equipe nos proporcionam resultados surpreendentes. Agradecemos a cada cliente e a cada feedback. Que o sabor da vovó tenha derretido não somente o seu paladar, mas também o seu coração.
+            </p>
+            </div>
+        </br>
+    </section>
+
+
+    
+
+<!-- FOOTER -->
+  <footer class="bg-amber-900 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <h3 class="text-xl font-bold flex items-center">
+            <i data-feather="heart" class="mr-2"></i> Mimos da Vovó
+          </h3>
+          <p class="text-amber-200">Brigadeiros artesanais feitos com amor</p>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-amber-200"><i data-feather="instagram"></i></a>
+          <a href="#" class="hover:text-amber-200"><i data-feather="facebook"></i></a>
+          <a href="#" class="hover:text-amber-200"><i data-feather="mail"></i></a>
+        </div>
+      </div>
+      <p class="text-center text-amber-300 mt-4 text-sm">
+        © 2025 Mimos da Vovó. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // menu mobile
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    // carrossel
+    const carousel = document.getElementById('carousel');
+    const next = document.getElementById('next');
+    const prev = document.getElementById('prev');
+    const slides = carousel.children.length;
+    let index = 0;
+    function showSlide(i) {
+      index = (i + slides) % slides;
+      carousel.style.transform = `translateX(-${index * 100}%)`;
+    }
+    next.addEventListener('click', () => showSlide(index + 1));
+    prev.addEventListener('click', () => showSlide(index - 1));
+    setInterval(() => showSlide(index + 1), 4000);
+
+    feather.replace();
+  </script>
+</body>
+</html>
