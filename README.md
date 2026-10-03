@@ -8,7 +8,7 @@ de uma empresa fictícia de brigadeiros artesanais.
 - HTML5
 - Tailwind CSS
 - JavaScript
-- Google Sheets (embeds)
+- Google Sheets
 - Miro (fluxograma)
 
 ## Objetivo
