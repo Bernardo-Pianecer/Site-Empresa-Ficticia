@@ -14,3 +14,5 @@ de uma empresa fictícia de brigadeiros artesanais.
 ## Objetivo
 Apresentar de forma estruturada os processos produtivos, organizacionais
 e estratégicos da empresa Mimos da Vovó.
+## Você pode acessar o projeto em:
+<a>https://sites.google.com/estudante.sesisenai.org.br/mimosdavovowiggers/in%C3%ADcio</a>
